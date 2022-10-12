@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificar/Decodificar</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main>
+
+        <div class="main-container">
+            <h1>CODIFICAÇÃO E DECODIFICAÇÃO</h1>
+            <div class="caixinhas">
+                <select id="selecao">
+                    <option value="Selecione"> Selecione </option>
+                    <option value="cifraDeCesar"> Cifra de César</option>
+                    <option value="base64">Base 64</option>
+                </select>
+                <div id= "mini" class="mini-caixas_antes">
+                    <input id="msg" placeholder="Escreva aqui" type="text">
+                    <input id = "numero" placeholder="Número" type="number">
+                </div>
+                <output id="saida"></output>
+                <div  class="botao">
+                    <button onclick="codificar()" >Codificar</button>
+                    <button onclick="decodificar()" >Decodificar</button>
+                    <button onclick="copiarColar() ">Copiar e Colar</button>
+                </div> 
+            </div>
+            <p>© Valesca Marinho - 2022</p>
+        </div>
+
+    </main>
+
+
+
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
